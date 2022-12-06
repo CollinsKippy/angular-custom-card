@@ -1,0 +1,70 @@
+/* Card Container */
+.card {
+  display: block;
+  border-radius: 0.5rem;
+  box-shadow: 4px 4px 18px gray;
+  max-width: 20rem;
+}
+
+/* Image */
+.image {
+  display: block;
+  min-height: 10rem;
+}
+
+/* Content */
+.content {
+  display: block;
+  padding: 1rem;
+}
+
+.date {
+  display: block;
+  color: rgb(158, 20, 43);
+  font-weight: 500;
+}
+
+.title {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #222;
+  margin: 1rem 0;
+}
+
+.description {
+  display: block;
+  font-size: 1rem;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  background-color: rgb(158, 20, 43);
+  color: white;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.stat-segment {
+  flex: 1;
+
+  border-right: 1px solid lightgray;
+  padding: 1rem;
+  text-align: center;
+}
+
+.stat-segment:last-of-type {
+  border-right: none;
+}
+
+.stat-segment .number {
+  font-size: 1.2rem;
+}
+
+.stat-segment .text {
+  font-size: 0.6rem;
+}
